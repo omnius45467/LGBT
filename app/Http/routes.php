@@ -15,7 +15,13 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'PageController@index');
 
-Route::get('form', 'PageController@form');
+Route::get('faq', 'PageController@faq');
+
+Route::get('about', 'PageController@about');
+
+Route::get('resources', 'PageController@resources');
+
+Route::get('faq', 'PageController@faq');
 
 Route::get('contact', 'PageController@contact');
 

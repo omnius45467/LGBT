@@ -8,6 +8,11 @@
                 @foreach($posts as $post)
                     <h2>
                         {{$post->title}}
+                        
+                    <span>
+                    {{$post->user_id}}
+                    </span>
+                        
                     </h2>
 
                     <p>

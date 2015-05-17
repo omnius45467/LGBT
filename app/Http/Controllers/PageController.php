@@ -25,9 +25,21 @@ class PageController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function form()
+	public function chat()
 	{
-		return view('pages.form');
+		$posts = Post::all();
+		return view('pages.chat', compact('posts'));
+	}
+
+	/**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
+	public function about()
+	{
+		$posts = Post::all();
+		return view('pages.about', compact('posts'));
 	}
 
 	/**
@@ -38,6 +50,16 @@ class PageController extends Controller {
 	public function contact()
 	{
 		return view('pages.contact');
+	}
+
+	/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function faq()
+	{
+		return view('pages.faq');
 	}
 
 }

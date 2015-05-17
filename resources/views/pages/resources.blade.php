@@ -1,4 +1,4 @@
 @extends('app')
 @section('content')
-    <h2>Contact</h2>
+    <h2>resources</h2>
 @endsection
