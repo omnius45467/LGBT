@@ -25,6 +25,8 @@ Route::get('faq', 'PageController@faq');
 
 Route::get('contact', 'PageController@contact');
 
+Route::get('manager', 'ManagerController@index');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
