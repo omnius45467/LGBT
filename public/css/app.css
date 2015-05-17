@@ -6231,3 +6231,127 @@ label,
 .checkbox label {
   font-weight: 300;
 }
+body {
+  font-family: 'Bitter', serif;
+}
+.navbar .container .navbar-brand {
+  font-family: 'Lobster Two', cursive;
+  font-size: 16pt;
+  color: #FF6666;
+}
+header img {
+  margin: 0 auto;
+  padding-top: 200px;
+}
+a {
+  color: #000000;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+}
+.jumbotron .homepage {
+  font-family: 'Lobster Two', cursive;
+  font-size: 36pt;
+  color: #FF6666;
+  text-align: center;
+  padding-top: 50px;
+}
+.jumbotron p {
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Bitter', serif;
+  text-align: center;
+  background-color: #EEEEEE;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.boxes {
+  color: #FF6666;
+  font-size: 16pt;
+  font-family: 'Bitter', serif;
+  text-align: center;
+}
+.box {
+  padding-bottom: 50px;
+}
+.pic300 {
+  width: 200px;
+}
+.phone {
+  padding-top: 9px;
+  padding-left: 50px;
+  color: #333333;
+  font-weight: 900;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+.contact-info {
+  padding-left: 50px;
+}
+.main {
+  padding-top: 100px;
+}
+.chat {
+  padding-top: 50px;
+}
+.contact {
+  padding-top: 110px;
+}
+#submit {
+  background-color: #FF6666;
+  border-color: #eeeeee;
+}
+h3 {
+  color: #FF6666;
+  text-align: center;
+}
+.rocketship {
+  color: #FF6666;
+  font-size: 36px;
+  text-align: center;
+}
+.about {
+  padding-top: 45px;
+}
+.post {
+  background-color: #EEEEEE;
+  border: 1px solid #333333;
+  border-radius: 25px;
+  height: 150px;
+  margin-top: 75px;
+}
+.postheader {
+  background-color: #999999;
+  border-bottom: 1px solid #333333;
+  border-radius: 25px 25px 0 0;
+  font-family: 'Bitter', serif;
+  font-size: 14px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  color: #FFFFFF;
+}
+.comment {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Bitter', serif;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: 'Bitter', serif;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=app.css.map */
