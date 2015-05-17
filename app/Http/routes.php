@@ -15,6 +15,10 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'PageController@index');
 
+Route::get('form', 'PageController@form');
+
+Route::get('contact', 'PageController@contact');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
