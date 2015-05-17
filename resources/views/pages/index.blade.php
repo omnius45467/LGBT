@@ -13,7 +13,7 @@
                     <p>
                         {{$post->body}}
                     </p>
-           
+
                 @endforeach
             </div>
         </div>
