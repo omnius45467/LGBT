@@ -21,7 +21,7 @@ Route::get('about', 'PageController@about');
 
 Route::get('resources', 'PageController@resources');
 
-Route::get('faq', 'PageController@faq');
+Route::get('chat', 'PageController@chat');
 
 Route::get('contact', 'PageController@contact');
 

@@ -62,4 +62,14 @@ class PageController extends Controller {
 		return view('pages.faq');
 	}
 
+	/**
+	 * Store a newly created resource in storage.
+	 *
+	 * @return Response
+	 */
+	public function resources()
+	{
+		return view('pages.resources');
+	}
+
 }
